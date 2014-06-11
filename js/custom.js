@@ -8,6 +8,7 @@ $(window).load(function(){
 
 $(document).ready(function() {
   fullScreenContainer();
+  setTimeout(fullScreenContainer,'1000');
 });
 
 
@@ -39,8 +40,12 @@ function fullScreenContainer() {
 
   var img = document.getElementById('main-image'); 
   var imgHeight = img.clientHeight;
+  var margin = ($(window).height() - imgHeight)/2;
+  if(margin < 70) {
+    margin = 70;
+  }
   $("#main-image").css({
-    marginTop: (($(window).height() - imgHeight)/2) + "px"
+    marginTop: margin + "px"
   });
 
   // Every time the window is resized...
@@ -61,9 +66,13 @@ function fullScreenContainer() {
 
     var img = document.getElementById('main-image'); 
     var imgHeight = img.clientHeight;
+    var margin = ($(window).height() - imgHeight)/2;
+    if(margin < 70) {
+      margin = 70;
+    }
     $("#main-image").css({
-      marginTop: (($(window).height() - imgHeight)/2) + "px"
-    }); 
+      marginTop: margin + "px"
+    });
       
   });
 
