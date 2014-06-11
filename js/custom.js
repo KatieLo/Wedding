@@ -111,6 +111,8 @@ function initializeMap() {
   //---- Main google maps initializing ----
   if (document.getElementById("gmaps")) {
     var myOptions1 = { 
+      //disable scrolling on mobile
+      draggable: false,
       //Coordinates of the map's center
       center: new google.maps.LatLng(-33.946219, 18.377555), 
       //Zoom level
