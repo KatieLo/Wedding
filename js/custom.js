@@ -8,8 +8,12 @@ $(window).load(function(){
 
 $(document).ready(function() {
   fullScreenContainer();
-  setTimeout(fullScreenContainer,'1000');
+  $("#main-image").load(function() {
+    fullScreenContainer();
+  });
 });
+
+
 
 
 
