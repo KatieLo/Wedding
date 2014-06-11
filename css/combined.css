@@ -2714,12 +2714,8 @@ section.dark.with-bg {
 }
 
 section#about {
-	padding: 7em 0;
+	padding: 4em 0;
 
-}
-
-section#about h4 {
-	line-height: 2;
 }
 
 section#about h3 {
@@ -2745,7 +2741,7 @@ section#map {
 	border-bottom: 3px solid #EA9387;
 }
 
-section#about p {
+section#about p.directions {
 	display: none;
 	font-weight: 400;
 	font-size: 1.3em;
