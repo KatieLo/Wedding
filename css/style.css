@@ -1,0 +1,141 @@
+
+.preloader {
+	background-color: white;
+}
+
+.preloader .spinner > div {
+	background-color: #F7999E;
+}
+
+.cbp-af-header .nav a {
+	color: black;
+}
+
+
+
+.cbp-af-header h1 {
+	color: black;
+}
+
+.navbar-toggle .icon-bar {
+	background: black;
+}
+
+#main-image {
+	margin: 100px auto;
+}
+
+section.dark.with-bg {
+  background: url('../img/glen-beach.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.overlay-bg.black {
+	opacity: 0.7;
+}
+
+section#about {
+	padding: 7em 0;
+
+}
+
+section#about h4 {
+	line-height: 2;
+}
+
+section#about h3 {
+	font-size: 1.7em;
+}
+
+section#map {
+	padding-top: 2em;
+	padding-bottom: 0;
+}
+
+.map-button {
+	margin-top: 15px;
+	background: #F7B1AC;
+	border: none;
+	border-bottom: 3px solid #EA9387;
+}
+
+.map-button:hover {
+	margin-top: 15px;
+	background: #EA9387;
+	border: none;
+	border-bottom: 3px solid #EA9387;
+}
+
+section#about p {
+	display: none;
+	font-weight: 400;
+	font-size: 1.3em;
+}
+
+.contact-maps-wrap #gmaps {
+		height: 500px;
+}
+
+.contact-deets {
+	font-weight: 600;
+	font-size: 19px;
+}
+
+footer.footer {
+	background: white;
+	padding-bottom: 30px;
+
+}
+
+#flower-detail {
+	float: right;
+}
+
+#excited {
+	margin-top: 25px;
+}
+
+@media (max-width: 893px) {
+
+}
+
+
+@media (max-width: 767px) {
+	.cbp-af-header .nav a {
+	color: white;
+	}
+
+	#flower-detail {
+		display: none;
+	}
+
+	#excited {
+	margin-top: 0;
+}
+
+}
+
+@media (max-width: 480px)  {
+
+	section.dark.with-bg {
+	  background: url('../img/glen-beach-mobi.jpg') center center no-repeat;
+	  background-size: cover;
+	}
+
+	.cbp-af-header h1 a {
+		margin: 0.5em 0;
+		font-size: 20px;
+	}
+
+	.contact-maps-wrap #gmaps {
+		height: 300px;
+	}
+
+	footer.footer {
+	padding-top: 30px;
+
+	}
+	
+}
+
+
